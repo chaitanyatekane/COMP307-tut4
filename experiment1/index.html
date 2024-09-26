@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dogs for Sale</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dogs for Sale</h1>
+    </header>
+
+    <article>
+      <div class="parent white">
+        <div class="box pink">
+          <p>Bulldog</p>
+          <img src="https://picsum.photos/200?random=1" alt="Bulldog" />
+        </div>
+        <div class="box purple">
+          <p>Poodle</p>
+          <img src="https://picsum.photos/200?random=2" alt="Poodle" />
+        </div>
+        <div class="box blue">
+          <p>Labrador</p>
+          <img src="https://picsum.photos/200?random=3" alt="Labrador" />
+        </div>
+        <div class="box green">
+          <p>Beagle</p>
+          <img src="https://picsum.photos/200?random=4" alt="Beagle" />
+        </div>
+      </div>
+    </article>
+
+    <footer>
+      <button id="buyButton">Buy Me</button>
+    </footer>
+
+    <script>
+      document
+        .getElementById("buyButton")
+        .addEventListener("click", function () {
+          alert("You bought a dog!");
+        });
+    </script>
+  </body>
+</html>

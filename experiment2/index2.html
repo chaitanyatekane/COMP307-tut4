@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dogs for Sale</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dogs for Sale</h1>
+    </header>
+
+    <article>
+      <div class="parent white">
+        <div class="card yellow">
+          <h3>Bulldog</h3>
+          <p contenteditable>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bulldog is
+            a sturdy dog breed.
+          </p>
+          <img src="https://picsum.photos/200?random=1" alt="Bulldog" />
+        </div>
+        <div class="card yellow">
+          <h3>Poodle</h3>
+          <p contenteditable>
+            Poodle is known for its intelligence and elegant appearance. It’s an
+            active breed.
+          </p>
+          <img src="https://picsum.photos/200?random=2" alt="Poodle" />
+        </div>
+        <div class="card yellow">
+          <h3>Labrador</h3>
+          <p contenteditable>
+            Lorem ipsum dolor sit amet, consectetur. Labrador is a loyal and
+            friendly breed.
+          </p>
+          <img src="https://picsum.photos/200?random=3" alt="Labrador" />
+        </div>
+        <div class="card yellow">
+          <h3>Beagle</h3>
+          <p contenteditable>
+            Beagles are known for their great sense of smell and love for
+            adventures.
+          </p>
+          <img src="https://picsum.photos/200?random=4" alt="Beagle" />
+        </div>
+      </div>
+    </article>
+
+    <footer>
+      <button id="buyButton">Buy Me</button>
+    </footer>
+
+    <script>
+      document
+        .getElementById("buyButton")
+        .addEventListener("click", function () {
+          alert("You bought a dog!");
+        });
+    </script>
+  </body>
+</html>
